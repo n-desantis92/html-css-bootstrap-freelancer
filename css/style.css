@@ -1,3 +1,5 @@
+/* header */
+/* nav */
 nav.container {
   background-color: red;
   padding-bottom: 0;
@@ -23,11 +25,11 @@ p {
   padding: 5px;
   text-align: center;
 }
-
+/* /nav */
 header {
   background-color: #1abc9c;
 }
-
+/* hero */
 .meta_cont {
   background-color: violet;
   margin: auto;
@@ -62,3 +64,25 @@ header {
   margin: auto;
   margin-bottom: 30px;
 }
+/* /hero */
+
+/* /header */
+/* main */
+/* main-white_top */
+section.white_top {
+  background-color: white;
+}
+
+.corpo_blue {
+  height: 200px;
+  background-color: blue;
+}
+/* main-white_top */
+
+/* main_green */
+.main_green {
+  background-color: #1abc9c;
+  height: 100vh;
+}
+/* /main_green */
+/* /main */
