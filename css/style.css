@@ -25,9 +25,40 @@ p {
 }
 
 header {
-  background-color: #1abc9c
+  background-color: #1abc9c;
 }
 
-@media screen and  {
+.meta_cont {
+  background-color: violet;
+  margin: auto;
+  width: 50%;
+  padding-top: 40px;
+}
 
+.quadrato_img {
+  background-color: yellow;
+  height: 250px;
+  width: 250px;
+  margin: auto;
+}
+
+.title {
+  /* future modifiche */
+  background-color: grey;
+}
+
+.star {
+  width: 50%;
+  background-color: red;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.descrizione {
+  width: 80%;
+  background-color: plum;
+  margin: auto;
+  margin-bottom: 30px;
 }
