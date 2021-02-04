@@ -1,3 +1,8 @@
+/* mix */
+.text-white {
+  color: white;
+}
+/* /mix */
 /* header */
 /* nav */
 nav.container {
@@ -7,11 +12,11 @@ nav.container {
 
 nav {
   padding: 5px;
+  height: 50px;
 }
 
 .nav_bg {
   background-color: #2c3e50;
-  height: 50px;
 }
 
 .h_full {
@@ -71,12 +76,13 @@ header {
 /* main-white_top */
 section.white_top {
   background-color: white;
+  padding: 40px 0;
 }
 
-.corpo_blue {
-  height: 200px;
+.box_portfolio {
   background-color: blue;
   color: white;
+  padding: 10px;
 }
 /* main-white_top */
 
