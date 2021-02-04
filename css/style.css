@@ -96,7 +96,7 @@ section.white_top {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
 }
 
@@ -114,9 +114,20 @@ h2 {
 /* main-white_top */
 
 /* main_green */
-.main_green {
+#main-green {
   background-color: #1abc9c;
   text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#main-green p {
+  font-size: 15px;
+}
+
+#main-green button {
+  background-color: inherit;
+  color: white;
 }
 /* /main_green */
 /* /main */
