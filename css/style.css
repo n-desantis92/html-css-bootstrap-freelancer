@@ -165,16 +165,21 @@ h2 {
   background-color: #1abc9c;
   text-align: center;
   color: white;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 #main-green p {
-  font-size: 15px;
+  font-size: 20px;
+  text-align: left;
 }
 
 #main-green button {
   background-color: inherit;
   color: white;
+  font-size: 20px;
+  padding: 16px 28px;
+  margin-top: 20px;
+  border: 2px solid;
 }
 /* /main_green */
 #main_bottom {
@@ -276,6 +281,24 @@ footer li a {
 
   .col_box {
     padding: 0 25px;
+  }
+
+  #main-green {
+  }
+
+  #main-green p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  #main-green .star {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 970) and (max-width: 1169px) {
+  #main-green p {
+    text-align: left;
   }
 }
 /* /media screen */
