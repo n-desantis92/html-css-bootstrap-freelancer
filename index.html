@@ -24,16 +24,22 @@
       <div class="container">
         <div class="row nav_tot">
           <div class="col-xs-6 nav_left">
-            <p class="logo">START BOOTSTRAP</p>
+            <a href="#" class="logo">START BOOTSTRAP</a>
           </div>
           <div class="col-xs-6 nav_right">
             <nav class="text-right menu_nav">
               <ul>
-                <li class="hamburger-*">MENU <i class="fas fa-bars"></i></li>
-                <li class="hidden_xs">PORTFOLIO</li>
-                <li class="hidden_xs">ABOUT</li>
-                <li class="hidden_xs">CONTACT</li>
+                <li class="hidden_xs">
+                  <a href="#">PORTFOLIO</a>
+                </li>
+                <li class="hidden_xs">
+                  <a href="#">ABOUT</a>
+                </li>
+                <li class="hidden_xs">
+                  <a href="#">CONTACT</a>
+                </li>
               </ul>
+              <button class="btn hamburger hidden-sm hidden-md hidden-lg" type="button" name="button">MENU <i class="fas fa-bars"></i></button>
             </nav>
           </div>
         </div>
@@ -75,7 +81,7 @@
           </div>
         </div>
         <div class="row">
-          <div class=" col-xs-12 col-sm-6 col-md-4">
+          <div class="col_box col-xs-12 col-sm-6 col-md-4">
             <div class="box_portfolio">
               <img class="box_portfolio_img" src="img/cabin.png" alt="cabina">
               <div class="overlay">
@@ -85,7 +91,7 @@
               </div>
             </div>
           </div>
-          <div class=" col-xs-12 col-sm-6 col-md-4">
+          <div class="col_box col-xs-12 col-sm-6 col-md-4">
             <div class="box_portfolio">
               <div class="overlay">
                 <div class="plus">
@@ -95,7 +101,7 @@
               <img class="box_portfolio_img" src="img/cake.png" alt="cake">
             </div>
           </div>
-          <div class=" col-xs-12 col-sm-6 col-md-4">
+          <div class="col_box col-xs-12 col-sm-6 col-md-4">
             <div class="box_portfolio">
               <img class="box_portfolio_img" src="img/circus.png" alt="circus">
               <div class="overlay">
@@ -105,7 +111,7 @@
               </div>
             </div>
           </div>
-          <div class=" col-xs-12 col-sm-6 col-md-4">
+          <div class="col_box col-xs-12 col-sm-6 col-md-4">
             <div class="box_portfolio">
               <div class="overlay">
                 <div class="plus">
@@ -115,7 +121,7 @@
               <img class="box_portfolio_img" src="img/game.png" alt="game">
             </div>
           </div>
-          <div class=" col-xs-12 col-sm-6 col-md-4">
+          <div class="col_box col-xs-12 col-sm-6 col-md-4">
             <div class="box_portfolio">
               <div class="overlay">
                 <div class="plus">
@@ -125,7 +131,7 @@
               <img class="box_portfolio_img" src="img/safe.png" alt="safe">
             </div>
           </div>
-          <div class=" col-xs-12 col-sm-6 col-md-4">
+          <div class="col_box col-xs-12 col-sm-6 col-md-4">
             <div class="box_portfolio">
               <div class="overlay">
                 <div class="plus">
@@ -135,7 +141,6 @@
               <img class="box_portfolio_img" src="img/submarine.png" alt="submarine">
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -184,21 +189,18 @@
         <div class="row  dati">
           <div class="col-xs-12">
             <!-- form -->
-            <form>
-              <div class="form-group">
-                <label for="exampleInputName"></label>
-                <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Name">
+            <form class="col-xs-12">
+              <div class="form-group ">
+                <input type="text" placeholder="Name">
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1"></label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+                <input type="email" placeholder="Email Address">
               </div>
               <div class="form-group">
-                <label for="exampleInputPassword1"></label>
-                <input type="phonenumber" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+                <input type="tel" placeholder="Phone Number">
               </div>
               <div class="form-group">
-                <input class="form-control" type="text" placeholder="Message" readonly>
+                <textarea  name="name" rows="6" placeholder="Message"></textarea>
               </div>
               <button type="submit" class="btn btn-default btn_green">Send</button>
             </form>
@@ -212,8 +214,8 @@
   <!-- /main -->
   <footer class="container-fluid text-center text-white">
     <div class="container">
-      <div class="row col-xs-12 ">
-        <div class="row location col-xs-12 col-md-4">
+      <div class="row">
+        <div class="location col-xs-12 col-md-4">
           <div class="col-xs-12">
             <h3>LOCATION</h3>
             <p>2215 John Daniel Drive</p>
@@ -221,10 +223,10 @@
           </div>
           <div class="col-xs-12">2215</div>
         </div>
-        <div class="row siti col-xs-12 col-md-4">
+        <div class="siti col-xs-12 col-md-4">
           <div class="col-xs-12">
             <h3>AROUND THE WEB</h3>
-            <ul>
+            <ul class="social_list">
               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
               <li><a href="#"><i class="fab fa-twitter"></i></a></li>
               <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -232,19 +234,19 @@
             </ul>
           </div>
         </div>
-        <div class="row freelancer col-xs-12 col-md-4">
+        <div class="freelancer col-xs-12 col-md-4">
           <div class="col-xs-12">
             <h3>ABOUT FREELANCER</h3>
             <p>Freelance is a free to use, MIT</p>
             <p>licensed Bootstrap theme created by</p>
-            <p><link rel="stylesheet" href="/css/master.css"> </p>
+            <p><link rel="stylesheet" href="/css/master.css"></p>
           </div>
         </div>
       </div>
     </div>
   </footer>
   <div class="copyright container-fluid col-xs-12 text-center">
-    <p><small>Copyright © Your Website 2020</small> </p>
+    <p><small>Copyright © Your Website 2020</small></p>
   </div>
 </body>
 </html>
